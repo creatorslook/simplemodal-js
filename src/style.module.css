@@ -1,0 +1,34 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  backdrop-filter: blur(13px);
+  animation: growUp 0.4s linear 1 forwards;
+  transition: 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+.modalChild {
+  margin: auto;
+}
+
+@keyframes growUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(1);
+    opacity: 1;
+  }
+}

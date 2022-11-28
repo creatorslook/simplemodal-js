@@ -1,0 +1,28 @@
+{
+  "name": "simplemodal-js",
+  "version": "1.0.0",
+  "description": "A simple modal library for react apps",
+  "main": "src/index.ts",
+  "files" : ["src/**/*"],
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E14mayam/simplemodal-js.git"
+  },
+  "author": "E14mayam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/E14mayam/simplemodal-js/issues"
+  },
+  "homepage": "https://github.com/E14mayam/simplemodal-js#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^18.0.25"
+  }
+}
