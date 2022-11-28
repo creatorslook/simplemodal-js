@@ -12,7 +12,7 @@ npm install simplemodal-js
 ```
 * Usage : 
 ```jsx
-import Modal from "simplemodal-js"
+import Modal from "simplemodal-js/src/modal"
 
 const ExampleComponent = () => {
     const [isOpen, setOpen] = useState(false)
