@@ -36,7 +36,7 @@ export default ExmapleComponent;
 ```
 
 * Info : 
-    * Child props are fully editable and close functions should be passed into the child prop as show above.
+    * Child props are fully editable and close functions should be passed into the child prop as shown above.
     * Child props should be enclosed in divs and styled accordingly
 
     ```js
