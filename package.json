@@ -1,6 +1,6 @@
 {
   "name": "simplemodal-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple modal library for react apps",
   "main": "src/index.ts",
   "files" : ["src/**/*"],

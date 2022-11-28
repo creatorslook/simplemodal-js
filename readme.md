@@ -40,7 +40,7 @@ export default ExmapleComponent;
     * Child props should be enclosed in divs and styled accordingly
 
     ```js
-    <Modal>
+    <Modal isOpen={isOpen}>
     <div className="exmapleClass">
     <h1>Hello World</h1>
     <button onClick={handleModal}></button>
